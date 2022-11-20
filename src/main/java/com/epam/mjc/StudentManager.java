@@ -22,7 +22,7 @@ public class StudentManager {
         Student student = manager.find(IDs[i]);
         System.out.println("Student name " + student.getName());
       } catch (IllegalArgumentException ex) {
-        System.err.print(ex);
+        throw new IllegalArgumentException("Could not find student with ID " + IDs[i]);
       }
 
     }
