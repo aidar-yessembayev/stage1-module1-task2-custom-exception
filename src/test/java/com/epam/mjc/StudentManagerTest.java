@@ -39,7 +39,7 @@ public class StudentManagerTest {
     try {
       assertNull("Student enum should be have only 10 values.", manager.find(11));
     } catch (IllegalArgumentException e) {
-      e.printStackTrace();
+      
     }
   }
 
