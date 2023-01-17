@@ -13,7 +13,7 @@ public class StudentManager {
     return Student.getValueOf(studentID);
   }
 
-  public static void main(String[] args) throws IllegalArgumentException {
+  public static void main(String[] args) {
     StudentManager manager = new StudentManager();
 
     for (int i = 0; i < IDs.length; i++) {
